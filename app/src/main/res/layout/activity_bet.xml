@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="10">
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        android:listSelector="#666" />
+
+
+    <Button
+        android:id="@+id/btnComfirm"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="right"
+        android:layout_weight="1"
+        android:text="确定" />
+
+    <RadioGroup
+        android:id="@+id/group"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/btn1000"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/bt_bg"
+            android:button="@null"
+            android:checked="true"
+            android:gravity="center"
+            android:text="1000" />
+
+        <RadioButton
+            android:id="@+id/btn500"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/bt_bg"
+            android:button="@null"
+            android:gravity="center"
+            android:text="500" />
+
+        <RadioButton
+            android:id="@+id/btn200"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/bt_bg"
+            android:button="@null"
+            android:gravity="center"
+            android:text="200" />
+
+        <RadioButton
+            android:id="@+id/btn100"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/bt_bg"
+            android:button="@null"
+            android:gravity="center"
+            android:text="100" />
+    </RadioGroup>
+
+
+</LinearLayout>
